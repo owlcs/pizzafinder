@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://www.co-ode.org/downloads/pizzafinder2/" href="PizzaFinder.jnlp">
+	<information>
+		<title>Pizza Finder</title>
+		<vendor>BHIG - The University Of Manchester</vendor>
+		<description>
+            An application that allows the user to select toppings from
+			the Pizza ontology and determine the pizzas that have these toppings.
+		</description>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<jar href="lib/PizzaFinder.jar"/>
+		<jar href="lib/owlapi.jar"/>
+		<jar href="lib/factplusplus.jar"/>
+		<j2se version="1.5+"/>
+	</resources>
+  	<resources os="Mac">
+        	<nativelib href="lib/native/native-mac.jar"/> 
+	</resources>
+  	<resources os="Windows">
+        	<nativelib href="lib/native/native-windows.jar"/> 
+	</resources>
+  	<resources os="Linux">
+        	<nativelib href="lib/native/native-linux.jar"/> 
+	</resources>
+	<application-desc main-class="uk.ac.man.cs.mig.coode.pizzafinder.ui.PizzaApplication"/>
+</jnlp>

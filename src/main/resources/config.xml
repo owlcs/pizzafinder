@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PizzaFinderPrefs>
+    <OntologyLocation url="http://owl.cs.manchester.ac.uk/co-ode-files/ontologies/pizza.owl"/>
+	<PizzaClass name="http://www.co-ode.org/ontologies/pizza/pizza.owl#NamedPizza"/>
+	<VegetarianPizzaClass name="http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizza"/>
+	<SpicyPizzaClass name="http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyPizza"/>
+	<ToppingClass name="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping"/>
+	<ToppingProperty name="http://www.co-ode.org/ontologies/pizza/pizza.owl#hasTopping"/>
+    <PizzaSizeProperty name="http://www.co-ode.org/ontologies/pizza/pizza.owl#hasPizzaSize"/>
+    <Language name="en"/>
+</PizzaFinderPrefs>

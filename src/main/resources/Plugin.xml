@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!DOCTYPE plugin PUBLIC "-//JPF//Java Plug-in Manifest 0.4" "http://jpf.sourceforge.net/plugin_0_4.dtd">
+
+<plugin id="PizzaFinderPlugin" version="0.0.0-Exp">
+    <requires>
+        <import plugin-id="org.protege.core.application"/>
+        <import plugin-id="org.protege.owl"/>
+
+    </requires>
+
+    <runtime>
+        <library id="uk.ac.man.cs.mig.coode.pizzafinder" path="./" type="code">
+        </library>
+        <library id="factplusplusreasoner" path="./" type="code">
+            <export prefix="*"/>
+        </library>
+        <library id="FaCTPlusPlusJNI" path="lib/native/" type="resources"/>
+        <library id="FaCTPlusPlusJavaAPI" path="lib/FaCT++.jar" type="code"/>
+
+
+    </runtime>
+
+
+
+
+    <extension plugin-id="org.protege.core.application" point-id="ViewComponent"
+               id="uk.ac.man.cs.mig.coode.pizzafinder.ui.PizzaFinderPlugin">
+        <parameter id="label" value="Pizza Finder"/>
+        <parameter id="class" value="uk.ac.man.cs.mig.coode.pizzafinder.ui.PizzaFinderPlugin"/>
+        <parameter id="headerColor" value="@org.protege.classcolor"/>
+        <parameter id="category" value="@org.protege.classcategory"/>
+    </extension>
+</plugin>
