@@ -49,7 +49,7 @@ public class Preferences {
 
     public static final IRI DEFAULT_HAS_TOPPING_PROPERTY_IRI = IRI.create("http://www.co-ode.org/ontologies/pizza/pizza.owl#hasTopping");
 
-    public static final IRI DEFAULT_ONTOLOGY_DOCUMENT_IRI = IRI.create("http://owl.cs.manchester.ac.uk/co-ode-files/ontologies/pizza.owl");
+    public static final IRI DEFAULT_ONTOLOGY_DOCUMENT_IRI = IRI.create("http://protege.stanford.edu/ontologies/pizza/pizza.owl");
 
     public static final String DEFAULT_LANGUAGE = "en";
 
